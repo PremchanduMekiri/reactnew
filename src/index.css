@@ -1,0 +1,49 @@
+
+.mobile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid bisque;
+  display: flex;
+  margin:10px ;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(0.9);
+  
+}
+.iqoo{
+  display: flex;
+  flex-direction: column;
+}
+
+#link{
+  font-size:50px ;
+  color: black;
+}
+.tabs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 10px;
+}
+button{
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  background-color: aqua;
+  border-radius: 10px;
+}
+.pprice{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#flipkartlogo{
+  width:80px;
+  height: 30px;
+}
