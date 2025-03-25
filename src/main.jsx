@@ -38,6 +38,18 @@ const mobile3={
       camera:"108 Mp",
       battery:"6000 mah"
 }
+const mobile4={
+  imageLink :"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/p/y/k/-original-imah4t2mazqcnkrh.jpeg?q=70",
+  rediLink:"https://www.flipkart.com/realme-9-pro-5g",
+  name:"realme 9 pro 5g",
+   rating:"4.9",
+      ratingp:"14,04,384 ratings | 3404 reviews",
+      ratingp:"14,04,384 ratings | 3404 reviews",
+      ramrom:"8gb || 256gb ram",
+      screen:"17.65 cm ",
+      camera:"108 Mp",
+      battery:"6000 mah"
+}
 
 
 
@@ -47,6 +59,7 @@ createRoot(document.getElementById('root')).render(
     <App mobileData={mobile1} />
     <App mobileData={mobile2}/>
     <App mobileData={mobile3}/>
+    <App mobileData={mobile4}/>
    
   </StrictMode>,
 )
